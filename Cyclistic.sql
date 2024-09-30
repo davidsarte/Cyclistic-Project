@@ -15,12 +15,10 @@ CREATE TABLE cyclistic_202408_divvy(
         member_casual TEXT
 );
 
-
 --Importing File
 COPY cyclistic_202408_divvy
 FROM '/Users/david/Desktop/Google Data Analytics /Capstone/Bike/SQL/202408-divvy-tripdata.csv'
 WITH (FORMAT CSV, HEADER);
-
 
 --Creating Other Tables
 CREATE TABLE cyclistic_202407_divvy (LIKE cyclistic_202408_divvy INCLUDING ALL);
@@ -35,12 +33,10 @@ CREATE TABLE cyclistic_202311_divvy (LIKE cyclistic_202408_divvy INCLUDING ALL);
 CREATE TABLE cyclistic_202310_divvy (LIKE cyclistic_202408_divvy INCLUDING ALL);
 CREATE TABLE cyclistic_202309_divvy (LIKE cyclistic_202408_divvy INCLUDING ALL);
 
-
 --Importing Other Data--
 COPY cyclistic_202309_divvy
 FROM '/Users/david/Desktop/Google Data Analytics /Capstone/Bike/SQL/202309-divvy-tripdata.csv'
 WITH (FORMAT CSV, HEADER);
-
 
 --Combing Tables
 CREATE TABLE IF NOT EXISTS cyclistic_combined AS
@@ -68,11 +64,9 @@ SELECT * FROM cyclistic_202310_divvy
 UNION ALL
 SELECT * FROM cyclistic_202309_divvy;
 
-
 --Check # of Rows
 SELECT COUNT(*)
 FROM cyclistic_combined;
-
 
 --# Of Blanks
 SELECT COUNT(*)
@@ -90,7 +84,6 @@ WHERE ride_id IS NULL OR ride_id = ''
    OR end_lng IS NULL
    OR member_casual IS NULL OR member_casual = '';
 
-
 --Deleting Blanks
 DELETE FROM cyclistic_combined
 WHERE ride_id IS NULL OR ride_id = ''
@@ -105,7 +98,6 @@ WHERE ride_id IS NULL OR ride_id = ''
    OR end_lat IS NULL
    OR end_lng IS NULL
    OR member_casual IS NULL OR member_casual = '';
-
 
 --Checking For Invalid Values
 SELECT COUNT(*) AS longer_than_a_day
