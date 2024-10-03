@@ -19,5 +19,5 @@ ORDER BY day_of_week;
 
 --Export
 COPY cyclistic_combined
-TO '/Users/david/Desktop/Google Data Analytics /Capstone/Bike/cyclistic_combined.csv'
+TO 'cyclistic_combined.csv'
 WITH(FORMAT CSV, HEADER);
