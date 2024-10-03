@@ -74,7 +74,7 @@ When looking at ride count per day of the week by member type, members are more 
   <img src="https://github.com/user-attachments/assets/0a902045-d2ba-47e2-831a-38268cfab0ec" alt="Per Month Count" width="700"/>
 </p>
 
-Looking at ride count from a month-to-month basis, summer is the most popular time for renting bikes from both casual users and members. Winter, especially December and January, are the least popular months for both member types.
+Looking at ride count from a month-to-month basis, summer is the most popular time for renting bikes from both casual users and members. Winter, especially December and January, is the least popular for both member types.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b28200ac-8221-487c-884f-8b8fd45e47e4" alt="Ride Length Per Member Type (1)" width="700"/>
