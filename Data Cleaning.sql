@@ -14,7 +14,7 @@ WHERE ride_id IS NULL OR ride_id = ''
    OR end_lng IS NULL
    OR member_casual IS NULL OR member_casual = '';
 
---Deleting Blanks--
+--Deleting Blanks
 DELETE FROM cyclistic_combined
 WHERE ride_id IS NULL OR ride_id = ''
    OR started_at IS NULL
