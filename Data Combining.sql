@@ -17,7 +17,7 @@ CREATE TABLE cyclistic_202408_divvy(
 
 --Importing File (Repeat this Process For Other Months’ Data)
 COPY cyclistic_202408_divvy
-FROM '/Users/david/Desktop/Google Data Analytics /Capstone/Bike/SQL/202408-divvy-tripdata.csv'
+FROM '202408-divvy-tripdata.csv'
 WITH (FORMAT CSV, HEADER);
 
 --Creating Additional Tables For Each Month
