@@ -1,5 +1,10 @@
 # Google Data Analytics Capstone Project: Cyclistic Bikeshare 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/931105d6-d827-44e0-8e0a-b2c41f3277de" alt="360_F_190018547_tcSJpqSxzBmXdoZYXe82UoSMI6zhsygc" width="500"/>
+</p>
+<p align="center">
+Stock image from Adobe Stock
+</p>
 
 ## Introduction
 This is my approach to the **Capstone Project** from the **Google Data Analytics Specialization** course from Coursera. In this project, I will be analyzing data provided by Cyclistic, a fictional company, using the following steps learned from this specialization:
@@ -38,7 +43,7 @@ The data from 09/2023 - 08/2024 was [combined](https://github.com/davidsarte/Cyc
 <img width="132" alt="Screenshot 2024-10-01 at 10 07 11 PM" src="https://github.com/user-attachments/assets/a641dfae-d7c0-4817-bb42-24f5fdba5cee">
 
 ### Cleaning Data
-After combining the data, I proceeded with [data cleaning](https://github.com/davidsarte/Cyclistic-Project/blob/main/2.%20Data%20Cleaning.sql) <br>. Four main actions were performed in the data cleaning process:
+After combining the data, I proceeded with [data cleaning](https://github.com/davidsarte/Cyclistic-Project/blob/main/2.%20Data%20Cleaning.sql). Four main actions were performed in the data cleaning process:
 1. **Check the number of blank rows**
 2. **Delete the blank rows**
 3. **Check the number of invalid values in rows**
