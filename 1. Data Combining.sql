@@ -34,7 +34,7 @@ CREATE TABLE cyclistic_202310_divvy (LIKE cyclistic_202408_divvy INCLUDING ALL);
 CREATE TABLE cyclistic_202309_divvy (LIKE cyclistic_202408_divvy INCLUDING ALL);
 
 
---Combing Tables
+--Combining Tables
 CREATE TABLE IF NOT EXISTS cyclistic_combined AS
 SELECT * FROM cyclistic_202408_divvy
 UNION ALL
