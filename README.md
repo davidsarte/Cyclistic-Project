@@ -54,6 +54,7 @@ Finally, after cleaning the data, I [transformed](https://github.com/davidsarte/
 -  **Ride length column, taking the difference of the started_at and ended_at columns**
 -  **Month column, displaying the month in which rides were recorded**
 -  **Week column, indicating the day of the week for each recorded ride**
+-  **Time of day
 
 ## Analyze & Share
 <p align="center">
@@ -76,6 +77,12 @@ When looking at ride count per day of the week by member type, members are more 
 Looking at ride count from a month-to-month basis, summer is the most popular time for renting bikes from both casual users and members. Winter, especially December and January, are the least popular months for both member types.
 
 <p align="center">
+  <img src="https://github.com/user-attachments/assets/b28200ac-8221-487c-884f-8b8fd45e47e4" alt="Ride Length Per Member Type (1)" width="700"/>
+</p>
+
+From an hourly basis, members' peak hours are 8am and 5pm whereas casual users' peak hour is 5pm.
+
+<p align="center">
   <img src="https://github.com/user-attachments/assets/7e7bc22d-0766-4d53-9237-5a4e4912809f" alt="Bike Type (1)" width="700"/>
 </p>
 
@@ -86,14 +93,16 @@ Next, when comparing what type of bikes each member type prefers, both prefer cl
   <img src="https://github.com/user-attachments/assets/5d721f61-c736-440e-a119-1a2d973ffa05" alt="Ride Length Per Member Type (1)" width="900"/>
 </p>
 
-Finally, members appear to prefer shorter bike rides under 30 minutes. On the other hand, casual members prefer longer rides that exceed 30 minutes.
+Finally, embers appear to prefer shorter bike rides under 30 minutes. On the other hand, casual members prefer longer rides that exceed 30 minutes.
 
 ## Insights
 Based on the data, the following conclusions have been made:
 1. Significantly more members use bike sharing compared to casual users.
-2. More casual users use bike sharing on weekends.
-3. Users of both member types prefer classic bikes over electric bikes.
-4. Members prefer shorter bike rides while casual users prefer longer bike rides.
+2. The summer months (July - September) are the most popular time for both member types, indicating that weather likely influences bike share usage.
+4. Casual users are more likely to use bike sharing on weekends, suggesting recreational or one-time use.
+5. Members mostly use bike sharing at 8am and 5pm, indicating possible commuting usage. Casual users mostly bike share at 5pm, possibly for leisure.
+6. Users of both member types prefer classic bikes over electric bikes.
+7. Members prefer shorter bike rides whereas casual users prefer longer bike rides.
 
 ## Act 
 
